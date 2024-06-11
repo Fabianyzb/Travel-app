@@ -1,8 +1,15 @@
-import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className="border-2 border-red-500 flexBetween 
+    mas-container padding-container relative z-30 py-5">
+        <Link href="/"> {/* cada link con su href */}
+            <Image src="/hilink-logo.svg" alt="logo" width={74} height={29}/>
+        </Link>
+
+    </nav>
   )
 }
 
