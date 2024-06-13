@@ -19,7 +19,30 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1></h1>
+        <h1 className="bold-52 lg:bold-88">Cerro San Cristobal</h1>
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+          Nos encantaría acompañarte en tus viajes en busca de la inmaculada
+          belleza natural. Explora el mundo con solo una aplicación.
+        </p>
+        <div className="my-11 flex flex-wrap gap-5">
+          <div className="flex items-center gap-2">
+            {Array(5)
+              .fill(1)
+              .map((_, index) => (
+                <Image
+                  src="/star.svg"
+                  key={index}
+                  alt="star"
+                  width={24}
+                  height={24}
+                />
+              ))}
+          </div>
+          <p className="bold-16 lg:bold-20 text-blue-70">
+            198 mil
+            <span> Excelentes Reviews</span>
+          </p>
+        </div>
       </div>
     </section>
   );
