@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           alt="camp"
           width={50}
           height={50}
-          className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
+          className="absolute left-[-5px] top-[-35px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-88">Cerro San Cristobal</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
@@ -40,8 +41,19 @@ const Hero = () => {
           </div>
           <p className="bold-16 lg:bold-20 text-blue-70">
             198 mil
-            <span> Excelentes Reviews</span>
+            <span className="regular-16 lg:regular-20 ml-1">
+              Reseñas positivas
+            </span>
           </p>
+        </div>
+        <div className="flex w-full gap-3 sm:flex-row">
+          <Button type="button" title="Download App" variant="btn_green" />
+          <Button
+            type="button"
+            title="Cómo trabajamos?"
+            icon="/play.svg"
+            variant="btn_white_text"
+          />
         </div>
       </div>
     </section>
