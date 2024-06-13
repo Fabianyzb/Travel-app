@@ -22,13 +22,14 @@ const Navbar = () => {
       {/* Menú para dispositivos grandes */}
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
-          <Link
-            href={link.href}
-            key={link.key}
-            className="regular-16 text-gray-50 flex cursor-pointer pb-1.5 transition-all hover:font-bold hover:bg-gray-100 hover:rounded-md"
-          >
-            {link.label}
-          </Link>
+          <li key={link.key} className="flex items-center">
+            <Link
+              href={link.href}
+              className="regular-16 text-gray-50 flex cursor-pointer pb-1.5 transition-all hover:font-bold hover:border-b-4 hover:border-black hover:pb-0"
+            >
+              {link.label}
+            </Link>
+          </li>
         ))}
       </ul>
       <div className="lg:flexCenter hidden">
