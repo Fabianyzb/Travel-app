@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       className="max-container padding-container flex flex-col gap-20 py-10
-    pb-32 md:28 lg:py-20 xl:flex-row border-2 border-red-500"
+    pb-32 md:28 lg:py-20 xl:flex-row"
     >
       <div className="hero-map" />
 
