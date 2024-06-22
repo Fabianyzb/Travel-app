@@ -68,8 +68,9 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
     <li className="flex w-full flex-1 flex-col items-start">
       {/* Contenedor para el icono de la característica */}
       <div className="rounded-full p-4 lg:p-7 bg-green-50">
-        <Image src={icon} alt="map" width={28} height={28} /> // Icono de la
-        característica
+        <Image src={icon} alt="map" width={28} height={28} />{" "}
+        {/* Icono de la
+        característica */}
       </div>
       {/* Título de la característica */}
       <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
