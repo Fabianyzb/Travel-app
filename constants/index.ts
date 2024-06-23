@@ -50,27 +50,30 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "Nosotros",
     links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
+      "Sobre Hilink",
+      "Sostenibilidad",
+      "Medio Ambiente",
+      "Trabaja con Nosotros",
+      "Bases Legales",
     ],
   },
   {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    title: "Nuestra Comunidad",
+    links: [
+      "Valparaiso Cerro Abajo",
+      "Farellones club",
+      "Torres del Paine hiking",
+    ],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+  title: "Contacto",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Oficina Santiago", value: "+56 9 xxxx xxxx" },
+    { label: "Email", value: "contacto@hilink.com" },
   ],
 };
 
