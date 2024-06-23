@@ -1,13 +1,12 @@
 // Importa constantes, componentes y librerías necesarias
 import { FEATURES } from "@/constants"; // Importa una lista de características desde un archivo de constantes
 import Image from "next/image"; // Utiliza Next.js Image para optimizar imágenes
-import React from "react"; 
+import React from "react";
 
 // Componente principal que muestra las características
 const Features = () => {
   return (
     <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
-      {/* Contenedor principal con dos secciones: imagen y descripción */}
       <div className="max-container padding-container relative w-full flex justify-end">
         {/* Sección para la imagen del teléfono */}
         <div className="flex flex-1 lg:min-h-[900px]">
@@ -29,10 +28,10 @@ const Features = () => {
               alt="camp" // Atributo alternativo para accesibilidad
               width={50} // Ancho de la imagen
               height={50} // Alto de la imagen
-              className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]" // Posicionamiento y tamaño ajustables
+              className="absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]" // Posicionamiento y tamaño ajustables
             />
             {/* Título de la sección */}
-            <h2 className="bold-40 lg:bold-64">Our Features</h2>
+            <h2 className="bold-40 lg:bold-64">Características</h2>
           </div>
           {/* Lista de características */}
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
