@@ -1,7 +1,7 @@
 // Importa constantes, componentes y librerías necesarias
 import { FEATURES } from "@/constants"; // Importa una lista de características desde un archivo de constantes
 import Image from "next/image"; // Utiliza Next.js Image para optimizar imágenes
-import React from "react"; // Importa React
+import React from "react"; 
 
 // Componente principal que muestra las características
 const Features = () => {
